@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wrestling Sim</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Wrestling Simulator</h1>
+
+  <div id="start">
+    <h2>Elegí el año de inicio</h2>
+    <select id="startYear">
+      <option value="1990">1990</option>
+      <option value="1995">1995</option>
+      <option value="2000">2000</option>
+      <option value="2005">2005</option>
+      <option value="2010">2010</option>
+    </select>
+    <br>
+    <button onclick="startGame()">Comenzar</button>
+  </div>
+
+  <div id="game" style="display:none">
+    <h2 id="currentYear"></h2>
+    <button onclick="nextYear()">Avanzar al siguiente año</button>
+    <div id="roster"></div>
+  </div>
+
+  <script src="wrestlers.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

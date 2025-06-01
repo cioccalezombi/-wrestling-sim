@@ -1,0 +1,21 @@
+body {
+      font-family: sans-serif;
+      background: #111;
+      color: #fff;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1, h2 {
+      color: #f39c12;
+    }
+    select, button {
+      padding: 0.5rem;
+      margin-top: 1rem;
+    }
+    #roster {
+      margin-top: 2rem;
+    }
+    .wrestler {
+      padding: 0.5rem;
+      border-bottom: 1px solid #555;
+    }
